@@ -1,0 +1,25 @@
+# Устанавливаем LF как стандартный конец строки для всех текстовых файлов
+* text=auto eol=lf
+
+# Явно указываем для Jupyter Notebook
+*.ipynb text eol=lf
+
+# Для Python‑файлов
+*.py text eol=lf
+
+# Для файлов конфигурации и данных
+*.csv text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Бинарные файлы не трогаем (чтобы Git не менял их содержимое)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
